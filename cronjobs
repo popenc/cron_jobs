@@ -1,0 +1,5 @@
+MAILTO=""
+SHELL=/bin/bash
+* * * * * env > /tmp/env.output
+* * * * * /bin/sh /src/script.sh
+* * * * * /usr/local/bin/python /src/cron_job.py
